@@ -19,9 +19,9 @@ def call(Map config=[:]){
             }
     }
     
-    def date = new Date()
-    def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
-    echo "Date and Time IS: " + sdf.format(date)
+    def now = new Date();
+    def fmt = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+    echo "Date and Time IS: " + fmt.format(date);
     
     if(config.changes != "false"){
         echo "changes";
