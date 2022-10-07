@@ -26,6 +26,7 @@ def call(Map config=[:]){
    
     
     echo "Build Number is: ${BUILD_NUMBER}"
+    echo "And this IS A NEW COMMIT"
     
     
     def changeLogSets = currentBuild.changeSets;
