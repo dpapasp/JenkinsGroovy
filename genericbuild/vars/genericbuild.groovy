@@ -22,6 +22,7 @@ node {
     }
     stage('Deploy') {
         echo 'Deploying....'
+	echo 'We defined a Pipeline with Groovy'
     }
 }
 }
