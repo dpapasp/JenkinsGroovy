@@ -12,6 +12,5 @@ node {
     }
     stage('Deploy') {
         echo 'Deploying....'
-	echo 'This is the deployment stage from the master branch'
     }
 }
